@@ -14,4 +14,6 @@ export class WonderRegistry
   }
 }
 
+export const instance: WonderRegistry = new WonderRegistry();
+
 export default WonderRegistry;

@@ -82,9 +82,9 @@
     "@civ-clone/core-terrain" "^0.1.0"
 
 "@civ-clone/core-world@^0.1.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@civ-clone/core-world/-/core-world-0.1.1.tgz#54a31412e9e2a6d7382c06553192cce4e9c7836d"
-  integrity sha512-Jfki8t0B5Hu3yATF4CtvMhJ26torVk4m5SxoB16/b+Y3ppXtc+6ypOchCYjptrkDoS2LW2Mm7R0bMxg64GMyNA==
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@civ-clone/core-world/-/core-world-0.1.2.tgz#0b802a7967b173550fd5742740f6536cc933ee62"
+  integrity sha512-TH8I+Hg3wwI3hRkb6GhVYHAY0Lz867itmKiPeZF4BpowNH+Tyy1onYaIv2e3gmlbRFjOcTWiQ4T+n8PI0Z9IKg==
   dependencies:
     "@civ-clone/core-data-object" "^0.1.0"
     "@civ-clone/core-player" "^0.1.0"

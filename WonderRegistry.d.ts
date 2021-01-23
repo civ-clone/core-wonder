@@ -9,4 +9,5 @@ export declare class WonderRegistry
   implements IWonderRegistry {
   constructor();
 }
+export declare const instance: WonderRegistry;
 export default WonderRegistry;
