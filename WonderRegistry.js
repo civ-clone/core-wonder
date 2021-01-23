@@ -7,6 +7,9 @@ class WonderRegistry extends EntityRegistry_1.EntityRegistry {
     constructor() {
         super(Wonder_1.default);
     }
+    getByCity(city) {
+        return this.getBy('city', city);
+    }
 }
 exports.WonderRegistry = WonderRegistry;
 exports.instance = new WonderRegistry();
