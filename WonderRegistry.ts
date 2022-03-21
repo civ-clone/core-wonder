@@ -11,7 +11,8 @@ export interface IWonderRegistry extends IEntityRegistry<Wonder> {
 
 export class WonderRegistry
   extends EntityRegistry<Wonder>
-  implements IWonderRegistry {
+  implements IWonderRegistry
+{
   constructor() {
     super(Wonder);
   }

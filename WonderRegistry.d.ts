@@ -9,7 +9,8 @@ export interface IWonderRegistry extends IEntityRegistry<Wonder> {
 }
 export declare class WonderRegistry
   extends EntityRegistry<Wonder>
-  implements IWonderRegistry {
+  implements IWonderRegistry
+{
   constructor();
   getByCity(city: City): Wonder[];
 }
