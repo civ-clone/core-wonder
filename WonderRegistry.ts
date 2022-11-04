@@ -24,7 +24,7 @@ export class WonderRegistry
   }
 
   getByPlayer(player: Player): Wonder[] {
-    return this.getBy('player', player);
+    return this.filter((wonder: Wonder) => wonder.city().player() === player);
   }
 }
 
