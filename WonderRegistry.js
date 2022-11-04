@@ -10,6 +10,9 @@ class WonderRegistry extends EntityRegistry_1.EntityRegistry {
     getByCity(city) {
         return this.getBy('city', city);
     }
+    getByPlayer(player) {
+        return this.getBy('player', player);
+    }
 }
 exports.WonderRegistry = WonderRegistry;
 exports.instance = new WonderRegistry();
